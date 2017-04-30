@@ -10,7 +10,7 @@ class Lustro
 private:
     double mirror_width;
     double mirror_angle;
-    int x,y;  // Obiekt?
+    int x,y;  // docelowo w klasie obiekt
     friend class Scene;
 public:
     Lustro(int=0,int=0);

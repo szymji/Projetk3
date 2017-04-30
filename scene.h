@@ -12,7 +12,7 @@ class Scene : public QWidget
      Q_OBJECT
 private:
     int n;
-    Lustro tab[4];
+    Lustro tab[4];  // dodac dynamiczna tablice
 
     void paintEvent(QPaintEvent*);
 
